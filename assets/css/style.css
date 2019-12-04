@@ -1,0 +1,68 @@
+html {
+    height: 100%;
+}
+.navButtons {
+    display: flex;
+    justify-content: space-around;
+}
+.content {
+    border: solid black 1px;
+    height: 600px;
+    background-image: url("../images/checkerboard-cross.png");
+    margin: auto;
+    
+}
+body {
+    background-image: url("../images/beanstalk-dark.png");
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+footer {
+    border-top: 8px solid #4aaaa5;
+    height: 40px;
+    margin-top: auto;
+    background-color: darkblue;
+}
+.holder {
+    margin:auto;
+}
+
+.holder2 {
+    margin:auto;
+    background-image: url("../images/checkerboard-cross.png");
+}
+.text-muted {
+    display: flex;
+    justify-content: flex-start;
+}
+.center {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+p {
+    color: #777777
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+}
+.content2 {
+    border: solid black 1px;
+    height: 1000px;
+    width: 1000px;
+    background-image: url("../images/checkerboard-cross.png");
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
