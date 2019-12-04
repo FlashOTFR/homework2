@@ -5,7 +5,7 @@ html {
     display: flex;
     justify-content: space-around;
 }
-.content {
+.contenttest {
     border: solid black 1px;
     height: 600px;
     background-image: url("../images/checkerboard-cross.png");
@@ -56,7 +56,7 @@ h1, h2, h3 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #4aaaa5;
 }
-.content2 {
+.content2test {
     border: solid black 1px;
     height: 1000px;
     width: 1000px;
@@ -65,4 +65,20 @@ h1, h2, h3 {
     justify-content: center;
     align-items: center;
     
+}
+.megacontent {
+    display: flex;
+    flex: 1 0 auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 1600px;
+    height: 700px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../images/checkerboard-cross.png");
+    border-style: solid;
+    border-color: #dddddd;
 }
